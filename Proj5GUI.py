@@ -32,6 +32,7 @@ from TSPClasses import *
 class PointLineView( QWidget ):
 	def __init__( self, status_bar, data_range ):
 		super(QWidget,self).__init__()
+
 		# self.setMinimumSize(950,600)
 
 		self.pointList	= {}
